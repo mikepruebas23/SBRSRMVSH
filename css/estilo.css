@@ -1,28 +1,40 @@
 *{margin: 0; padding: 0;}
-body{background: #f2f2f2;}
+body{background: #45447b;}
 
 .portada{
   height: 70vh;
-  background:#808e9b;
+  height: 70vh;
+  background: #706fd3;
+  color: #fff;
+  border-width: 1rem;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-bottom-style: solid;
+  border-radius: 5px;
 }
-
+/*----- seccion de como funciona----- */
+.comoFunciona{
+  color: #fff;
+  margin-top: 9%;
+  padding: 10px;
+  height: 100vh;
+  background: #2d98da;
+}
 /*----- seccion de contacto----- */
-
 .contactoCaja {
   display: flex;
   justify-content: center;
-  margin-top: 8%;
   background-color: #2f3338;
   padding-bottom: 5%;
   padding-top: 5%;
+
 }
 .contenedor-perfil{
 
 }
 .perfil{
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
   margin-right: 10px;
 }
 .descripcion-perfil{
@@ -40,7 +52,7 @@ body{background: #f2f2f2;}
 /* --------footer------- */
 
 footer {
-  background-color: #37474f;
+  background-color: #1e1f1f;
   padding: 1% 0% 2% 0%;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
