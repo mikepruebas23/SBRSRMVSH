@@ -1,0 +1,55 @@
+*{margin: 0; padding: 0;}
+body{background: #f2f2f2;}
+
+.portada{
+  height: 70vh;
+  background:#808e9b;
+}
+
+/*----- seccion de contacto----- */
+
+.contactoCaja {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+  background-color: #2f3338;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.contenedor-perfil{
+
+}
+.perfil{
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+.descripcion-perfil{
+  color: #fff;
+  background-color: rgb(10, 116, 249);
+  border-width: 0.5rem;
+  border-color: rgba(0, 0, 0, 0.1);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-bottom-style: solid;
+  border-radius: 10px;
+}
+/* --------footer------- */
+
+footer {
+  background-color: #37474f;
+  padding: 1% 0% 2% 0%;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.footerBox {
+  text-align: center;
+}
+
+.footerBox-icons {
+  margin-top: 20px;
+}
