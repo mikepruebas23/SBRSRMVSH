@@ -1,0 +1,52 @@
+/* pagina de comentarios */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+.mensajes {
+    /* color: #fff;
+    margin-top: 9%;
+    padding: 10px;
+    height: 100vh;
+    background: #2d98da; */
+    height: 50vh;
+    background: #4ed26b;
+    color: #fff;
+    border-width: 1rem;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-bottom-style: solid;
+}
+
+.contactoCajaMensajes {
+    display: flex;
+    justify-content: center;
+    background-color: #2f3338;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.perfil-mensaje {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+.descripcion-perfil-mensaje {
+    color: #fff;
+    background-color: rgb(10, 116, 249);
+    border-width: 0.5rem;
+    border-color: rgba(0, 0, 0, 0.1);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-bottom-style: solid;
+    border-radius: 10px;
+}
