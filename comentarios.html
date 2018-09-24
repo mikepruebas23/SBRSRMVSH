@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Comentarios</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estiloComentario.css">
 </head>
 
 <body>
@@ -20,10 +22,32 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
-    <p>Aqui van los comentarios de facebook</p>
-    <div class="fb-comments" data-href="https://mikepruebas23.github.io/SBRSRMVSH/comentarios.html" data-width="100%" data-numposts="3"></div>
+    <!-- |------------------barra de navegacion|----------- -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <a class="navbar-brand" href="#">Logo</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--***************************** fin del navbar*************************** -->
+    <!--|------------div informativo------------| -->
+
+    <div class="contactoCajaMensajes">
+        <div class="contenedor-perfil-mensaje">
+            <img src="images/yo.jpg" alt="" class="perfil-mensaje shadow">
+        </div>
+        <div class="descripcion-perfil-mensaje shadow">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+    </div>
 
 
+    <!--|------------ fin del div informativo------------| -->
+    <div class="fb-comments" data-href="https://mikepruebas23.github.io/SBRSRMVSH/comentarios.html" data-width="100%" data-numposts="3" data-mobile data-order-by="reverse_time"></div>
 </body>
 
 </html>
