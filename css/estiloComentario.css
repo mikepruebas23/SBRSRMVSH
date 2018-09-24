@@ -9,20 +9,6 @@ body {
     background: #f2f2f2;
 }
 
-.mensajes {
-    /* color: #fff;
-    margin-top: 9%;
-    padding: 10px;
-    height: 100vh;
-    background: #2d98da; */
-    height: 50vh;
-    background: #4ed26b;
-    color: #fff;
-    border-width: 1rem;
-    border-color: rgba(0, 0, 0, 0.1);
-    border-bottom-style: solid;
-}
-
 .contactoCajaMensajes {
     display: flex;
     justify-content: center;
@@ -49,4 +35,36 @@ body {
     border-color: rgba(0, 0, 0, 0.1);
     border-bottom-style: solid;
     border-radius: 10px;
+}
+
+
+/* pantalla para celulares */
+
+@media screen and (min-width: 320px) and (max-width: 736px) {
+    .contactoCajaMensajes {
+        display: flex;
+        justify-content: center;
+        background-color: #0663da;
+        padding: 10px;
+    }
+    .perfil-mensaje {
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+    }
+    .descripcion-perfil-mensaje {
+        color: #fff;
+        background-color: rgb(10, 116, 249);
+        border-width: 0.5rem;
+        border-color: rgba(0, 0, 0, 0.1);
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 1rem;
+        border-color: rgba(0, 0, 0, 0.1);
+        border-bottom-style: solid;
+        border-radius: 10px;
+    }
+    .descripcion-perfil-mensaje p {
+        text-align: center;
+    }
 }
