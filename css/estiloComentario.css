@@ -10,7 +10,7 @@ body {
 }
 
 .navbar-comentarios {
-    background-color: #333;
+    background-color: #212529;
     overflow: hidden;
 }
 
@@ -30,8 +30,8 @@ body {
 /* Change the color of links on hover */
 
 .navbar-comentarios a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #0663da;
+    color: white;
 }
 
 
@@ -58,10 +58,11 @@ body {
 }
 
 .descripcion-perfil-mensaje {
+    display: flex;
+    align-items: center;
     color: #fff;
     background-color: rgb(10, 116, 249);
     border-width: 0.5rem;
-    border-color: rgba(0, 0, 0, 0.1);
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 1rem;
@@ -74,10 +75,6 @@ body {
 /* pantalla para celulares */
 
 @media screen and (min-width: 320px) and (max-width: 736px) {
-    .menu {
-        position: sticky;
-        top: 0;
-    }
     .navbar-comentarios {
         color: #f2f2f2;
         text-align: center;
@@ -86,7 +83,8 @@ body {
     .contactoCajaMensajes {
         background-color: #0663da;
         padding: 15px;
-        padding-bottom: 100px;
+        padding-bottom: 15px;
+        padding-top: 15px;
     }
     .perfil-mensaje {
         width: 70px;
@@ -99,9 +97,5 @@ body {
     }
     .descripcion-perfil-mensaje p {
         text-align: center;
-    }
-    .img-com {
-        width: 50px;
-        height: 50px;
     }
 }

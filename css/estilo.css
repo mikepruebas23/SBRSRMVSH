@@ -56,8 +56,8 @@ body {
 /* Change the color of links on hover */
 
 .navbar-inicio a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #706fd3;
+    color: white;
 }
 
 
@@ -113,22 +113,48 @@ body {
 
 /* --------footer------- */
 
+
+/* 
 footer {
     background-color: #1e1f1f;
     padding: 1% 0% 2% 0%;
     font-family: 'Montserrat', sans-serif;
     color: #fff;
+} */
+
+footer .redes-sociales {
+    background: #1e1f1f;
+    padding: 60px 0;
 }
 
-.footerBox {
+footer .redes-sociales .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes-sociales a {
+    color: #fff;
     text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    border-radius: 3px;
+    font-size: 25px;
+    margin: 0 10px;
 }
 
-.footerBox-icons {
-    margin-top: 20px;
+footer .redes-sociales .facebook {
+    background: #3b5998;
+}
+
+footer .redes-sociales .insta {
+    background: #e1306c;
 }
 
 @media screen and (min-width: 320px) and (max-width: 736px) {
+    .container {
+        width: 90%;
+    }
     .navbar-inicio a {
         float: left;
         color: #f2f2f2;
@@ -136,5 +162,39 @@ footer {
         padding: 12px 14px;
         text-decoration: none;
         font-size: 13px;
+    }
+    .contactoCaja {
+        padding: 15px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .perfil {
+        width: 70px;
+        height: 70px;
+        margin-top: 50px;
+    }
+    .descripcion-perfil {
+        font-size: 15px;
+    }
+    .descripcion-perfil p {
+        text-align: center;
+    }
+    footer .redes-sociales .contenedor {
+        flex-wrap: wrap;
+        padding: 10px 0;
+    }
+    footer .redes-sociales a {
+        width: 50px;
+        border-width: 0.5rem;
+        border-color: rgba(0, 0, 0, 0.1);
+        border-bottom-style: solid;
+    }
+    footer .redes-sociales .facebook {
+        padding: 5px;
+        font-size: 15px;
+    }
+    footer .redes-sociales .insta {
+        padding: 5px;
+        font-size: 15px;
     }
 }
