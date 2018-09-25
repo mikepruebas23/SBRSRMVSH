@@ -25,23 +25,20 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #E45E4E;
+    background: #e1306c;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border-width: 0.5rem;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-bottom-style: solid;
 }
-
-
-/* Add a black background color to the top navigation */
 
 .navbar-inicio {
     background-color: #333;
     overflow: hidden;
 }
-
-
-/* Style the links inside the navigation bar */
 
 .navbar-inicio a {
     float: left;
@@ -52,19 +49,8 @@ body {
     font-size: 17px;
 }
 
-
-/* Change the color of links on hover */
-
 .navbar-inicio a:hover {
     background-color: #706fd3;
-    color: white;
-}
-
-
-/* Add a color to the active/current link */
-
-.navbar-inicio a.active {
-    background-color: #4CAF50;
     color: white;
 }
 
@@ -85,7 +71,7 @@ body {
 .contactoCaja {
     display: flex;
     justify-content: center;
-    background-color: #2f3338;
+    background-color: #343a40;
     padding-bottom: 5%;
     padding-top: 5%;
 }
@@ -113,18 +99,9 @@ body {
 
 /* --------footer------- */
 
-
-/* 
-footer {
-    background-color: #1e1f1f;
-    padding: 1% 0% 2% 0%;
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
-} */
-
 footer .redes-sociales {
-    background: #1e1f1f;
-    padding: 60px 0;
+    background: #212529;
+    padding: 60px 0 0 0;
 }
 
 footer .redes-sociales .contenedor {
@@ -135,12 +112,15 @@ footer .redes-sociales .contenedor {
 footer .redes-sociales a {
     color: #fff;
     text-align: center;
-    width: 100px;
+    width: 50px;
     display: block;
-    padding: 15px 0;
+    padding: 10px 0;
     border-radius: 3px;
-    font-size: 25px;
-    margin: 0 10px;
+    font-size: 15px;
+    margin: 0 5px;
+    border-width: 0.5rem;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-bottom-style: solid;
 }
 
 footer .redes-sociales .facebook {
@@ -149,6 +129,15 @@ footer .redes-sociales .facebook {
 
 footer .redes-sociales .insta {
     background: #e1306c;
+}
+
+footer .autor {
+    color: rgb(134, 142, 150);
+    font-size: 0.8rem;
+    display: flex;
+    margin-top: 25px;
+    justify-content: end;
+    margin-left: 10px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 736px) {
