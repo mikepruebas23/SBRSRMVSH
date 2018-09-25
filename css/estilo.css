@@ -68,6 +68,18 @@ body {
 
 /*----- seccion de contacto----- */
 
+.tweet-box {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11%;
+}
+
+.tweet-box p {
+    margin-bottom: 0;
+}
+
 .contactoCaja {
     display: flex;
     justify-content: center;
@@ -94,6 +106,7 @@ body {
     border-color: rgba(0, 0, 0, 0.1);
     border-bottom-style: solid;
     border-radius: 10px;
+    width: 65%;
 }
 
 
@@ -153,20 +166,31 @@ footer .autor {
         font-size: 13px;
     }
     .contactoCaja {
-        padding: 15px;
-        padding-bottom: 15px;
-        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #343a40;
+        padding-bottom: 5%;
+        padding-top: 5%;
     }
     .perfil {
-        width: 70px;
-        height: 70px;
-        margin-top: 50px;
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
     }
     .descripcion-perfil {
         font-size: 15px;
     }
     .descripcion-perfil p {
         text-align: center;
+    }
+    .tweet-box {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44%;
     }
     footer .redes-sociales .contenedor {
         flex-wrap: wrap;
@@ -185,5 +209,8 @@ footer .autor {
     footer .redes-sociales .insta {
         padding: 5px;
         font-size: 15px;
+    }
+    footer .autor {
+        font-size: 0.6rem;
     }
 }
