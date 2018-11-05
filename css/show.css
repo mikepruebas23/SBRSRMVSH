@@ -78,6 +78,11 @@
     font-family: 'Press Start 2P', cursive;
 } */
 
+.row1 {
+    display: flex;
+    justify-content: center;
+}
+
 .row2 {
     text-align: center;
     align-items: center;
@@ -87,6 +92,15 @@
     margin: 0;
     display: flex;
     justify-content: space-between;
+}
+
+.row4 {
+    display: flex;
+    justify-content: center;
+}
+
+.row4 h4 {
+    font-family: 'Press Start 2P', cursive;
 }
 
 .contendienteCaja:nth-child(1) h3 {
@@ -139,4 +153,35 @@
 .team1 img,
 .team2 img {
     width: 60%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 736px) {
+    .row1 h3 {
+        font-size: 15px;
+    }
+    .row2 {
+        margin-top: 35px;
+    }
+    .team1 img,
+    .team2 img {
+        width: 100%;
+    }
+    .row3 {
+        margin-top: 15px;
+    }
+    .row4 {
+        display: none;
+    }
+    .contendiente1,
+    .contendiente2 {
+        display: flex;
+        justify-content: center;
+    }
+    .team-name1,
+    .team-name2 {
+        font-size: 12px;
+    }
+    .versus {
+        margin: 0;
+    }
 }
