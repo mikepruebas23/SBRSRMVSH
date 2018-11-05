@@ -8,7 +8,7 @@ body {
 }
 
 .portada {
-    height: 70vh;
+    height: 80vh;
     background: #706fd3;
     color: #fff;
     border-width: 1rem;
@@ -143,6 +143,15 @@ footer .redes-sociales .facebook {
 footer .redes-sociales .insta {
     background: #e1306c;
 }
+footer .redes-sociales .twitter {
+    background: #1da1f2;
+}
+footer .redes-sociales .youtube {
+    background: #ff0000;
+}
+footer .redes-sociales .patreon {
+    background: #f96854;
+}
 
 footer .autor {
     color: rgb(134, 142, 150);
@@ -159,6 +168,9 @@ footer .autor {
         display: flex;
         flex-direction: column;
     }
+    ..portada {
+        height: 70vh;
+      }
     .navbar-inicio a {
         float: left;
         color: #f2f2f2;
@@ -209,6 +221,18 @@ footer .autor {
         font-size: 15px;
     }
     footer .redes-sociales .insta {
+        padding: 5px;
+        font-size: 15px;
+    }
+    footer .redes-sociales .twitter {
+        padding: 5px;
+        font-size: 15px;
+    }
+    footer .redes-sociales .youtube {
+        padding: 5px;
+        font-size: 15px;
+    }
+    footer .redes-sociales .patreon {
         padding: 5px;
         font-size: 15px;
     }
